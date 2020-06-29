@@ -1,30 +1,18 @@
 {
-  "name": "when",
+  "name": "@hemmsoft/when",
   "version": "1.0.0",
   "description": "Sequantially repeatidly call functions until they typecast-ically return false",
   "main": "when.js",
   "directories": {
-    "example": "examples",
     "test": "test"
   },
   "scripts": {
     "test": "mocha"
   },
-  "author": "Hemmsoft",
+  "author": "",
   "license": "UNLICENSED",
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "^8.0.1"
+  "dependencies": {
+    
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hemmsoft/when.git"
-  },
-  "keywords": [
-    "when"
-  ],
-  "bugs": {
-    "url": "https://github.com/Hemmsoft/when/issues"
-  },
-  "homepage": "https://github.com/Hemmsoft/when#readme"
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
 }
